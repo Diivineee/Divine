@@ -1,11 +1,23 @@
 *{
     margin: 5px;
     padding: 5px;
-    background-color: #C0DEA9;
-    background-image: url("https://img.freepik.com/free-photo/pink-blue-leaves-pink-background-with-copyspace-top-side_24972-579.jpg?size=338&ext=jpg&ga=GA1.2.1999141635.1630627200");
 }
 body{
-    background-image: url("https://i1.wp.com/zeevector.com/wp-content/uploads/Cute-Pastel-Background.png?fit=1937%2C1341&ssl=1");
+    background-color: burlywood;
+    background-image: url("images/final.jpg");
+}
+section{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url("images/bac.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 h1{
     font-size: 50px;
@@ -57,7 +69,6 @@ h3{
     justify-content: center;
     align-items: center;
     color: dimgrey;
-    background-color: rgb(142, 152, 206);
 }
 h4{
     font-size: 30px;
@@ -67,7 +78,6 @@ h4{
     justify-content: center;
     align-items: center;
     color: dimgrey;
-    background-color: rgb(142, 152, 206);
 }
 p{
     font-size: 15px;
@@ -77,7 +87,6 @@ p{
     justify-content: center;
     align-items: center;
     color: dimgrey;
-    background-color: rgb(142, 152, 206);
 }
 h5{
     font-size: 15px;
@@ -87,5 +96,4 @@ h5{
     justify-content: center;
     align-items: center;
     color: dimgrey;
-    background-color: rgb(142, 152, 206);
 }
