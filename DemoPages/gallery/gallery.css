@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(112, 68, 81);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color:rgb(180, 180, 180);
+    font-size: 15px;
+    font-weight: 700;;
+}
+.logo{
+    font-family: Verdana;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 35px;
+}
+.active{
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}

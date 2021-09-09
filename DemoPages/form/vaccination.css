@@ -81,14 +81,11 @@ form .page .field select{
 }
 input:checked + label {
     color: red;
-  }
-  
-  input[type="checkbox"]:checked {
+}
+input[type="checkbox"]:checked {
     box-shadow: 0 0 0 3px rgb(32, 31, 32);
-  }
-  
-  /* Option elements, when selected */
-  option:checked {
+}
+option:checked {
     box-shadow: 0 0 0 3px rgb(32, 53, 32);
     color: red;
-  }
+}
