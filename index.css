@@ -15,7 +15,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url("D:/WebDev/Divine/images/wall.png");
+    background: url("images/wall.png");
     background-position: center;
     background-size: cover;
     position: relative;
