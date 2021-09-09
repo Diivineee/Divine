@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID Vaccination Scheduling Form</title>
+    <link rel="stylesheet" href="vaccination.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>Signup Form</header>
+
+        <div class="form-outer">
+            <form action="#">
+                <div class="page">
+                    <div class="title">Informations:</div>
+                    <div class="field">
+                        <div class="label">Full Name</div>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <div class="label">Age</div>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <div class="label">Occupation</div>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <div class="label">Location</div>
+                        <input type="text">
+                    </div>
+                    <div class="title">Contact Informations:</div>
+                    <div class="field">
+                        <div class="label">Contact Number</div>
+                        <input type="number">
+                    </div>
+                    <div class="field">
+                        <div class="label">Email Addres</div>
+                        <input type="text">
+                    </div>
+                    <div class="title">DOB:</div>
+                    <div class="field">
+                        <div class="label">Date</div>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <div class="label">Gender</div>
+                        <select>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="title">Other Info:</div>
+                    <div class="field">
+                        <div class="label">Vaccination Preference</div>
+                        <input type="text">
+                    </div>
+                    <section>
+                        <div class="label">Health History</div>
+                        <br>
+                        <input type="checkbox" name="history" id="allergy" value="allergy">
+                        <label for="allergy">Allergies</label>
+                        <input type="checkbox" name="history" id="illnesses" value="illnesses">
+                        <label for="illnesses">Illnesses</label>
+                        <input type="checkbox" name="history" id="surgeries" value="surgeries">
+                        <label for="surgeries">Surgeries</label>
+                        <input type="checkbox" name="history" id="immunizations" value="immunizations">
+                        <label for="immunizations">Immunizations</label>
+                        <input type="checkbox" name="history" id="others" value="others">
+                        <label for="others">Others</label>
+                    </section>
+                    <div class="field-btns">
+                        <br>
+                        <button class="submit">Submit<dialog open>We'll send you a message of your schedule</dialog></button>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
