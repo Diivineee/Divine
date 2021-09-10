@@ -1,32 +1,65 @@
 *{
-    margin: 0px;
-}
-
-.box{
-    width: 900px;
-    float: right;
-    border: 1px solid none;
-}
-.box ul li{
-    width: 200px;
-    float: left;
-    margin: 10px auto;
-    text-align: center;
-}
-.box ul li a{
-    text-decoration: none;
-    color: darkgray;
-}
-.box ul li:hover{
-    background-color: rgb(199, 108, 123);
-}
-.box ul li a:hover{
-    color: white;
+    box-sizing: border-box;
 }
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    background: gray;
+}
+nav{
+    background: #594848;
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+}
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #594848;
+    font-size: 17px;
     color: white;
-    background: linear-gradient(rgba(0, 0 ,0, 0.95), rgba(0, 0 ,0, 0.65), rgba(0, 0 ,0 , 0.38), rgba(0, 0 ,0, 0)), url("images/bas.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover{
+    background: tomato;
+    color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.trends{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.trends img{
+    width: 100%;
+    height: 400px;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+footer{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background: #594848;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }

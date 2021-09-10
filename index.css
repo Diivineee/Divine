@@ -4,10 +4,10 @@ h1 {
 }
 p{ 
     text-align: center;
-    color:rgb(119, 105, 73);
+    color:rgb(202, 196, 200);
 }
 body {
-    background-color: rgb(126, 97, 97);
+    background-color: rgb(19, 16, 17);
 }
 section{
     width: 100%;
@@ -15,39 +15,40 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url("images/wall.png");
+    background: linear-gradient(rgba(0.95, 0.95 ,0.95, 0.95), rgba(0.65, 0.65 ,0.65 , 0.65), rgba(0.38, 0.38 ,0.38 , 0.38), rgba(0.95, 0.65 ,0.38, 0.95)), 
+    url("images/fin.png");
     background-position: center;
     background-size: cover;
     position: relative;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    background-color: rgb(112, 68, 81);
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    padding: 0px 5%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-nav ul{
-    display: flex;
-}
-nav ul li a{
-    margin: 30px;
-    font-family: myriad pro regular;
-    color:rgb(180, 180, 180);
-    font-size: 15px;
-    font-weight: 700;;
-}
 .logo{
-    font-family: Verdana;
-    color:rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 35px;
+    width: 50px;
+    float: left;
+    border: 1px solid none;
+    right: 1200px;
+}
+.box{
+    width: 1200px;
+    float: center;
+    border: 1px solid none;
+}
+.box ul li{
+    width: 200px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+.box ul li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.box ul li:hover{
+    background-color: rgb(199, 108, 123);
+}
+.box ul li a:hover{
+    color: white;
 }
 .active{
     font-weight: bold;
@@ -56,19 +57,19 @@ nav ul li a{
 .text-container p:nth-child(1){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    color:rgb(119, 105, 73);
+    color:rgb(221, 213, 216);
     font-size: 25px;
 }
 .text-container p:nth-child(2){
     font-family: sans-serif;
     font-weight: bold;
-    color:rgb(109, 90, 69);
-    font-size: 35px;
+    color:rgb(255, 153, 0);
+    font-size: 40px;
 }
 .text-container p:nth-child(3){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    color:rgb(119, 105, 73);
+    color:rgb(221, 213, 216);
     font-size: 25px;
     line-height: 30px;
 }
@@ -82,16 +83,6 @@ nav ul li a{
     top: 50%;
     transform: translate(-15%, -45%);
 }
-.text-container button{
-    width: 130px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    outline: none;
-    margin: 0px 10px;
-}
 .photos{
     border: 2px solid #373636;
     color: #373636;
@@ -101,6 +92,10 @@ nav ul li a{
     color: #373636;
 }
 .thoughts{
+    border: 2px solid #373636;
+    color: #373636;
+}
+.Vaccination{
     border: 2px solid #373636;
     color: #373636;
 }
@@ -117,7 +112,7 @@ button:active{
 .about-container{
     width: 80%;
     height: 330px;
-    background-color: rgb(148, 79, 100);
+    background-color: rgb(31, 25, 25);
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -125,6 +120,7 @@ button:active{
     position: relative;
     justify-content: space-evenly;
     align-items: center;
+    opacity: 0.9;
 }
 .about-container img{
     height: 250px;
@@ -151,11 +147,10 @@ button:active{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
-.about-text button{
+.text-container button{
     width: 120px;
     height: 40px;
-    color: thistle;
-    outline: tomato;
+    color: rgb(245, 245, 245);
     border: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #262525;
@@ -185,7 +180,8 @@ button:active{
 .contact-me{
     width: 100%;
     height: 280px;
-    background-image: url("images/wallp.png");
+    background-image: linear-gradient(rgba(0.95, 0.95 ,0.95, 0.95), rgba(0.65, 0.65 ,0.65 , 0.65), rgba(0.38, 0.38 ,0.38 , 0.38), rgba(0.95, 0.65 ,0.38, 0.95)), 
+    url("images/fin.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -196,7 +192,7 @@ button:active{
     border-bottom-right-radius: 5px;
 }
 .contact-me p{
-    color: rgb(46, 45, 43);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
@@ -205,17 +201,19 @@ button:active{
 .contact-me button{
     width: 200px;
     height: 40px;
-    background-color: burlywood;
+    background-color: rgb(56, 54, 52);
     font-size: 14px;
     font-weight: bold;
+    color: rgb(156, 156, 156);
 }
 footer{
-    height: 300px;
+    height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    background: rgb(39, 38, 38);
 }
 footer p{
     font-family: fantasy;
