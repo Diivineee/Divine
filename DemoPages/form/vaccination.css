@@ -11,6 +11,8 @@ body{
     min-height: 100vh;
     background-color:rgb(173, 131, 144);
     background: url("images/wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     width: 370px;
