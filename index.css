@@ -136,14 +136,14 @@ button:active{
     font-family: fantasy;
     font-weight: bold;
     font-size: 25px;
-    line-height: 0px;
+    line-height: 60px;
 }
 .about-text p:nth-child(2){
     color: rgb(202, 182, 182);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 15px;
-    line-height: 5px;
+    line-height: 40px;
 }
 .about-text p:nth-child(3), .about-text p:nth-child(4){
     color: rgb(211, 211, 211);
