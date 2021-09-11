@@ -1,4 +1,4 @@
-.food-card {
+.tech{
     background-color: #fff;
     position: relative;
     width: 325px;
@@ -8,51 +8,48 @@
     transform-style: preserve-3d;
     position: absolute;
 }
-.food-card:nth-child(1) {
-      left: 10%;
-      top: 33%;
+.tech:nth-child(1){
+    left: 10%;
+    top: 33%;
 }  
-.food-card:hover {
-        background-color: rgb(0, 0, 0);
+.tech:hover{
+    background-color: rgb(0, 0, 0);
 }
     
-.food-card:nth-child(2) {
-      left: 70%;
-      top: 33%;
+.tech:nth-child(2){
+    left: 70%;
+    top: 33%;
  
 }  
-.food-card:nth-child(3) {
-      top: 33%;
-      left: 40%;
+.tech:nth-child(3){
+    top: 33%;
+    left: 40%;
 }
-
-.food-card__image {
-      position: relative;
-      height: 160px;
+.tech-image{
+    position: relative;
+    height: 160px;
 }
-.food-card img {
-        max-width: 100%;
-        position: absolute;
-        height: 200px;
-        object-fit: cover;
-        object-position: center;
-      }
-    
-.food-card__details {
-      display: grid;
-      grid-row-gap: 8px;
-      grid-template: 1fr 1fr / 1fr 1fr;
-      padding: 8px 30px 20px;
+.tech img{
+    max-width: 100%;
+    position: absolute;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}  
+.tech-details{
+    display: grid;
+    grid-row-gap: 8px;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    padding: 8px 30px 20px;
 }
-
-.food-card__name{
+.tech-name{
     grid-column: 1;
     grid-row: 2;
     font-size: 14px;
     font-weight: bold;
     color: #949a98;
 }
-body {
+body{
     font-family: 'Montserrat', sans-serif;
     background-color: #e8e6e7;
     perspective: 2000px;
