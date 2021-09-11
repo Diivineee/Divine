@@ -91,3 +91,12 @@ option:checked {
     box-shadow: 0 0 0 3px rgb(32, 53, 32);
     color: red;
 }
+.submit{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}

@@ -8,38 +8,13 @@
     border: 1px solid none;
     right: 1200px;
 }
-.box{
-    width: 1200px;
-    float: center;
-    border: 1px solid none;
-}
-.box ul li{
-    width: 200px;
-    float: left;
-    margin: 10px auto;
-    text-align: center;
-}
-.box ul li a{
-    text-decoration: none;
-    color: darkgray;
-}
-.box ul li:hover{
-    background-color: rgb(199, 108, 123);
-}
-.box ul li a:hover{
-    color: white;
-}
-.active{
-    font-weight: bold;
-    color:rgb(255, 255, 255);
-}
 body{
     background-color: burlywood;
     background: linear-gradient(rgba(0.95, 0.95 ,0.95, 0.95), rgba(0.65, 0.65 ,0.65 , 0.65), rgba(0.38, 0.38 ,0.38 , 0.38), rgba(0.95, 0.65 ,0.38, 0.95)), url("images/final.jpg");
 }
 section{
     width: 100%;
-    min-height: 90vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
