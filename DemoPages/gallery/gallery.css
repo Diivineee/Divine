@@ -14,8 +14,7 @@
 }  
 .tech:hover{
     background-color: rgb(0, 0, 0);
-}
-    
+} 
 .tech:nth-child(2){
     left: 70%;
     top: 33%;
@@ -55,5 +54,7 @@ body{
     perspective: 2000px;
     position: relative;
     height: 100vh;
-    background: linear-gradient(rgba(0.95, 0.95 ,0.95, 0.95), rgba(0.65, 0.65 ,0.65 , 0.65), rgba(0.38, 0.38 ,0.38 , 0.38), rgba(0.95, 0.65 ,0.38, 0.95));
+    background: linear-gradient(rgba(0.95, 0.95 ,0.95, 0.95), rgba(0.65, 0.65 ,0.65 , 0.65), rgba(0.38, 0.38 ,0.38 , 0.38), rgba(0.95, 0.65 ,0.38, 0.95)),
+    rgb(8, 75, 201);
 }
+
