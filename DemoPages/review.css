@@ -29,7 +29,7 @@ body{
     color: rgb(0, 0, 0);
 }
 .box ul li:hover{
-    background-color: rgb(160, 114, 122);
+    background-color: rgb(95, 42, 42);
 }
 .box ul li a:hover{
     color: rgb(0, 0, 0);
