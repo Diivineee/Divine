@@ -3,9 +3,9 @@
     padding: 0;
 }
 body{
-    background-color: rgb(82, 49, 63);
+    background-color: rgb(165, 157, 44);
     background: linear-gradient(rgba(0.95, 0.95 ,0.95, 0.95), rgba(0.65, 0.65 ,0.65 , 0.65), rgba(0.38, 0.38 ,0.38 , 0.38), rgba(0.95, 0.65 ,0.38, 0.95)),
-    rgb(156, 10, 71);
+    rgb(255, 208, 0);
 }
 .logo{
     width: 50px;
@@ -26,13 +26,13 @@ body{
 }
 .box ul li a{
     text-decoration: none;
-    color: darkgray;
+    color: rgb(0, 0, 0);
 }
 .box ul li:hover{
     background-color: rgb(160, 114, 122);
 }
 .box ul li a:hover{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .header, .head{
     text-align: center;
@@ -48,7 +48,7 @@ body{
     border-radius: 10%;
 }
 .outer{
-    background: #805d5d;
+    background: #a8871b;
     border-radius: 20px;
     margin: 50px 80px 30px 80px;
     padding: 20px;
