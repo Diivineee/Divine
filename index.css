@@ -109,7 +109,7 @@ section{
     padding: 1rem 0;
 }
 .btn{
-    padding: 3rem 3rem;
+    padding: 2rem 3rem;
     background: #DBAE51;
     color: white;
     cursor: pointer;
@@ -178,6 +178,144 @@ section{
     font-size: 2rem;
     color: white;
 }
+.achievements .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+.achievements .box-container .box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: 0.2rem solid white;
+    position: relative;
+}
+.achievements .box-container .box span{
+    font-size: 1.3rem;
+    background: #DBAE51;
+    color: white;
+    border-radius: 5rem;
+    padding: 0.5rem 2.5rem;
+}
+.achievements .box-container .box h3{
+    font-size: 2rem;
+    color: white;
+    padding-top: 1.5rem;
+}
+.achievements .box-container .box p{
+    font-size: 1.4rem;
+    color: white;
+    padding-top: 1rem 0;
+}
+.achievements .box-container .box i{
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background: #DBAE51;
+}
+.demo .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.demo .box-container .box{
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.demo .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.demo .box-container .box:hover img{
+    transform: scale(1.2);
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row .content{
+    flex: 1 1 30rem;
+    padding-bottom: 0;
+    padding: 4rem;
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+.contact .row form .box{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #DBAE51;
+    color: white;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+}
+.contact .row form .box-container::placeholder{
+    text-transform: capitalize;
+}
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color: #DBAE51;
+}
+.top{
+    position: fixed;
+    bottom: 7.5rem;
+    right: 2rem;
+    z-index: 100;
+    display: none;
+}
+#menu{
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background: #DBAE51;
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
 
 
 
@@ -190,11 +328,23 @@ section{
     body{
         padding: 1rem 4rem;
     }
+    html{
+        font-size: 55%;
+    }
 }
 
 @media (max-width:911px){
     body{
         padding: 0;
+    }
+    header{
+        left: -120%;
+    }
+    #menu{
+        display: block;
+    }
+    header.toggle{
+        left: 0%;
     }
 }
 @media (max-width:400px){
@@ -203,5 +353,14 @@ section{
     }
     .about .row .counter .box{
         width: 100%;
+    }
+    .education .box-container .box{
+        width: 100%;
+    }
+    .demo .box-container .box{
+        width: 100%;
+    }
+    .contact .row form{
+        margin: 3rem 0;
     }
 }
