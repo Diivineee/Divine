@@ -25,7 +25,8 @@ html::-webkit-scrollbar-thumb{
     background: #5e5331;
 }
 body{
-    background: #A80C33;
+    background: linear-gradient(rgba(163, 83, 8, 0.95), rgba(121, 70, 29, 0.65), rgba(94, 67, 26, 0.38), rgba(129, 84, 25, 0.95)),
+    #A80C33;
     padding-left: 35rem;
 }
 header{
@@ -62,13 +63,7 @@ header .navbar{
     list-style: none;
     padding: 1rem 3rem;
 }
-header .navbar ul li{
-    width: 200px;
-    float: center;
-    margin: 10px auto;
-    text-align: center;
-}
-header .navbar ul li a{
+header .navbar a{
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
@@ -77,8 +72,13 @@ header .navbar ul li a{
     font-size: 2rem;
     border-radius: 5rem;
     text-decoration: none;
+    opacity: 0.9;
+    width: 200px;
+    float: center;
+    margin: 10px auto;
+    text-align: center;
 }
-header .navbar ul li a:hover{
+header .navbar a:hover{
     background: #DBAE51;
 }
 section{
@@ -164,8 +164,8 @@ section{
     padding: 0 0.5rem;
 }
 .about .row .counter .box{
-    width: 20rem;
-    background: #222;
+    width: 30rem;
+    background: #CC6E41;
     text-align: center;
     padding: 2rem;
     margin: 2rem;
@@ -316,51 +316,19 @@ section{
     z-index: 1000;
     display: none;
 }
-
-
-
-
-
-
-
-
-@media (max-width:1200px){
-    body{
-        padding: 1rem 4rem;
-    }
-    html{
-        font-size: 55%;
-    }
+#btnScroll{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 0 0 10px black;
+    color: white;
+    outline: none;
+    cursor: pointer;
 }
-
-@media (max-width:911px){
-    body{
-        padding: 0;
-    }
-    header{
-        left: -120%;
-    }
-    #menu{
-        display: block;
-    }
-    header.toggle{
-        left: 0%;
-    }
-}
-@media (max-width:400px){
-    .heading{
-        margin: 0 3rem;
-    }
-    .about .row .counter .box{
-        width: 100%;
-    }
-    .education .box-container .box{
-        width: 100%;
-    }
-    .demo .box-container .box{
-        width: 100%;
-    }
-    .contact .row form{
-        margin: 3rem 0;
-    }
+#btnScroll:active{
+    background: chartreuse;
 }

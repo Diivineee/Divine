@@ -3,10 +3,11 @@
 }
 body{
     margin: 0px;
-    background: rgb(44, 12, 12);
+    background: linear-gradient(rgba(163, 83, 8, 0.95), rgba(121, 70, 29, 0.65), rgba(94, 67, 26, 0.38), rgba(129, 84, 25, 0.95)),
+    #A80C33;
 }
 nav{
-    background: #581010;
+    background: linear-gradient(rgba(163, 83, 8, 0.95), rgba(121, 70, 29, 0.65), rgba(94, 67, 26, 0.38), rgba(129, 84, 25, 0.95)), #CC6E41;
     width: 100%;
     overflow: auto;
 }
@@ -19,12 +20,12 @@ nav p{
 .container{
     max-width: 1200px;
     margin: auto;
-    background: rgb(151, 101, 101);
+    background: #A80C33;
     overflow: auto;
 }
 .trends{
     margin: 5px;
-    border: 1px solid #664949;
+    border: 1px solid #E69037;
     float: left;
     width: 390px;
 }
@@ -51,8 +52,11 @@ footer{
     font-size: 17px;
     font-weight: bold;
     text-align: center;
-    background: #594848;
+    background: linear-gradient(rgba(163, 83, 8, 0.95), rgba(121, 70, 29, 0.65), rgba(94, 67, 26, 0.38), rgba(129, 84, 25, 0.95)), #CC6E41;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
+}
+.trends span{
+    color: #DBAE51;
 }

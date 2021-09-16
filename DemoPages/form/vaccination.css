@@ -9,14 +9,14 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color:rgb(173, 131, 144);
-    background: linear-gradient(rgba(0.95, 0.95 ,0.95, 0.95), rgba(0.65, 0.65 ,0.65 , 0.65), rgba(0.38, 0.38 ,0.38 , 0.38), rgba(0.95, 0.65 ,0.38, 0.95)), url("images/wall.jpg");
+    background: linear-gradient(rgba(163, 83, 8, 0.95), rgba(121, 70, 29, 0.65), rgba(94, 67, 26, 0.38), rgba(129, 84, 25, 0.95)),
+    #A80C33;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .container{
     width: 370px;
-    background:rgb(206, 181, 197);
+    background:#DBAE51;
     border-radius: 5px;
     text-align: center;
     padding: 50px 35px 10px 35px;
@@ -92,11 +92,14 @@ option:checked {
     color: red;
 }
 .submit{
-    background-color: black;
+    background-color: #A80C33;
     color: white;
     padding: 10px;
     margin: -14px auto;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
+}
+.submit:hover{
+    background-color: #CC6E41;
 }

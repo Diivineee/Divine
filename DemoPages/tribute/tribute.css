@@ -3,15 +3,9 @@
     padding: 0;
 }
 body{
-    background-color: rgb(82, 49, 63);
-    background: linear-gradient(rgba(0.95, 0.95 ,0.95, 0.95), rgba(0.65, 0.65 ,0.65 , 0.65), rgba(0.38, 0.38 ,0.38 , 0.38), rgba(0.95, 0.65 ,0.38, 0.95)),
-    rgb(156, 10, 71);
-}
-.logo{
-    width: 50px;
-    float: left;
-    border: 1px solid none;
-    right: 1200px;
+    background-color: #A80C33;
+    background: linear-gradient(rgba(163, 83, 8, 0.95), rgba(121, 70, 29, 0.65), rgba(94, 67, 26, 0.38), rgba(129, 84, 25, 0.95)),
+    #A80C33;
 }
 .box{
     width: 1200px;
@@ -26,35 +20,39 @@ body{
 }
 .box ul li a{
     text-decoration: none;
-    color: darkgray;
+    color: rgb(255, 255, 255);
 }
 .box ul li:hover{
-    background-color: rgb(160, 114, 122);
+    background-color: #A80C33;
 }
 .box ul li a:hover{
     color: white;
 }
 .header, .head{
     text-align: center;
-    color: rgb(43, 11, 11);
+    color: #DBAE51;
 }
 .mj img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     position: absolute;
-    bottom: 270px;
-    right: 550px;
+    bottom: 300px;
+    right: 590px;
+    object-fit: cover;
     transform: translateX(-20%);
     border-radius: 10%;
+    justify-items: center;
+    display: flex;
 }
 .outer{
-    background: #805d5d;
+    background: linear-gradient(rgba(163, 18, 8, 0.95), rgba(121, 32, 29, 0.65), rgba(94, 28, 26, 0.38), rgba(129, 28, 25, 0.95)),
+    #A80C33;;
     border-radius: 20px;
     margin: 50px 80px 30px 80px;
     padding: 20px;
 }
 .header h1 {
-    color: #ffffff;
+    color: #DBAE51;
     font-size: 54px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -63,7 +61,7 @@ body{
 .caption h4 {
     font-family: consolas, sans-serif;
     font-size: 16px;
-    color: rgb(37, 37, 37);
+    color: #DBAE51;
 }
 .intro p {
     font-family: Arial, Helvetica, sans-serif;
