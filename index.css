@@ -316,19 +316,26 @@ section{
     z-index: 1000;
     display: none;
 }
-#btnScroll{
+.to-top {
+    background: #DBAE51;
     position: fixed;
-    right: 10px;
-    bottom: 10px;
-    width: 50px;
-    height: 50px;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
     border-radius: 50%;
-    background: red;
-    box-shadow: 0 0 10px black;
-    color: white;
-    outline: none;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#1f1f1f;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
 }
-#btnScroll:active{
-    background: chartreuse;
+.to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
 }

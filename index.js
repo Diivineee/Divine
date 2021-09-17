@@ -14,6 +14,15 @@ window.onload = function() {
         }
         scrollEffect();
     }
+    const toTop = document.querySelector(".to-top");
+    
+    window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 100) {
+            toTop.classList.add("active");
+        } else {
+            toTop.classList.remove("active");
+        }
+    })
 }
 
 const lang = navigator.language;
@@ -29,3 +38,4 @@ document.getElementById('monthName').innerHTML = monthName;
 document.getElementById('dayName').innerHTML = dayName;
 document.getElementById('dayNumber').innerHTML = dayNumber;
 document.getElementById('year').innerHTML = year;
+
