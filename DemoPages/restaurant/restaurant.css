@@ -18,7 +18,7 @@
     color: rgb(255, 255, 255);
 }
 .box ul li:hover{
-    background-color: #A80C33;
+    background-color: #DBAE51;
 }
 .box ul li a:hover{
     color: white;
@@ -127,7 +127,7 @@ form .wd button:hover{
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: darkgrey;
+    background-color: #DBAE51;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     line-height: 0px;
 }

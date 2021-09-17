@@ -9,8 +9,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(rgba(163, 140, 8, 0.95), rgba(121, 112, 29, 0.65), rgba(94, 87, 26, 0.38), rgba(129, 122, 25, 0.95)),
-    #A80C33;
+    background: linear-gradient(rgba(163, 8, 8, 0.95), rgba(121, 29, 29, 0.65), rgba(94, 26, 26, 0.38), rgba(129, 25, 25, 0.95)),
+    #DBAE51;
 }
 .calendar{
     position: relative;
@@ -24,7 +24,7 @@ body{
 .calendar #monthName{
     position: relative;
     padding: 5px 10px;
-    background:#A80C33;
+    background:#a85f0c;
     color: white;
     font-size: 30px;
     font-weight: 700;
@@ -33,7 +33,7 @@ body{
     margin-top: 60px;
     font-size: 60px;
     font-weight: 300;
-    color: thistle;
+    color: rgb(255, 255, 255);
 }
 .calendar #dayNumber{
     margin-top: 0px;
@@ -46,5 +46,5 @@ body{
     margin-bottom: 60px;
     font-size: 60px;
     font-weight: 500;
-    color: thistle;
+    color: rgb(255, 255, 255);
 }
