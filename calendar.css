@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(rgba(163, 8, 8, 0.95), rgba(121, 29, 29, 0.65), rgba(94, 26, 26, 0.38), rgba(129, 25, 25, 0.95)),
+    background: linear-gradient(rgba(129, 5, 5, 0.89), rgba(121, 29, 29, 0.65), rgba(94, 26, 26, 0.38), rgba(129, 25, 25, 0.95)),
     #DBAE51;
 }
 .calendar{
