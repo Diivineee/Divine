@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Frontend Bootcamp</title>
+</head>
+<body bg-warning>
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark py-3 fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#learn" class="nav-link">What You'll Learn</a>
+              </li>
+              <li class="nav-item">
+                <a href="#questions" class="nav-link">Questions</a>
+              </li>
+              <li class="nav-item">
+                <a href="#instructors" class="nav-link">Instructors</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="p-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md">
+              <h2 class="text-center mb-4 text-warning">Contact Info</h2>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  <span class="fw-bold text-success">Main Location:</span> Serquina Street Polomolok, South Cotabato
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold text-success">Phone Number:</span> 09076931658
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold text-success">Enrollment Email:</span> divinedesamparado23@gmail.com
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold text-success">Student Email:</span> ddesamparado_200000000272@uic.edu.ph
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+      <script> mapboxgl.accessToken = 'pk.eyJ1IjoiZGl2aW5lZGVzYW1wYXJhZG8iLCJhIjoiY2t1Mm02eXk1MHJnYzJ2bXA0eGYwM3FxOCJ9.beEOtE5h6BK2wB0TGZXgvg';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11', 
+        center: [-71.060982, 42.35725], 
+        zoom: 18,
+        });</script>
+</body>
+</html>
